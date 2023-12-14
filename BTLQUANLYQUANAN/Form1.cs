@@ -5,6 +5,7 @@ namespace BTLQUANLYQUANAN
         public Form1()
         {
             InitializeComponent();
+            #fsafsafa
         }
     }
 }
