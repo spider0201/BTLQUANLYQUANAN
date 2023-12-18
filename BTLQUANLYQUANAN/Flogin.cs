@@ -12,5 +12,6 @@ namespace BTLQUANLYQUANAN
         {
             Application.Exit();
         }
+
     }
 }

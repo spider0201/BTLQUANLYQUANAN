@@ -46,7 +46,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(234, 254);
+            label1.Location = new Point(182, 242);
             label1.Name = "label1";
             label1.Size = new Size(112, 24);
             label1.TabIndex = 0;
@@ -56,7 +56,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(234, 321);
+            label2.Location = new Point(182, 309);
             label2.Name = "label2";
             label2.Size = new Size(100, 24);
             label2.TabIndex = 1;
@@ -66,7 +66,7 @@
             // 
             txbDangnhap.BorderStyle = BorderStyle.FixedSingle;
             txbDangnhap.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            txbDangnhap.Location = new Point(376, 254);
+            txbDangnhap.Location = new Point(321, 242);
             txbDangnhap.Name = "txbDangnhap";
             txbDangnhap.Size = new Size(189, 30);
             txbDangnhap.TabIndex = 2;
@@ -75,7 +75,7 @@
             // 
             txbMatkhau.BorderStyle = BorderStyle.FixedSingle;
             txbMatkhau.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            txbMatkhau.Location = new Point(376, 318);
+            txbMatkhau.Location = new Point(321, 306);
             txbMatkhau.Name = "txbMatkhau";
             txbMatkhau.Size = new Size(189, 30);
             txbMatkhau.TabIndex = 3;
@@ -84,7 +84,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.Logo_FastFood;
-            pictureBox1.Location = new Point(317, 12);
+            pictureBox1.Location = new Point(321, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(208, 192);
             pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -121,7 +121,7 @@
             btnDangnhap.FlatStyle = FlatStyle.Flat;
             btnDangnhap.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnDangnhap.ForeColor = Color.Transparent;
-            btnDangnhap.Location = new Point(355, 388);
+            btnDangnhap.Location = new Point(336, 377);
             btnDangnhap.Name = "btnDangnhap";
             btnDangnhap.Size = new Size(143, 54);
             btnDangnhap.TabIndex = 6;
@@ -132,9 +132,9 @@
             // 
             picExit.Cursor = Cursors.Hand;
             picExit.Image = Properties.Resources.exit;
-            picExit.Location = new Point(632, 0);
+            picExit.Location = new Point(626, 0);
             picExit.Name = "picExit";
-            picExit.Size = new Size(51, 41);
+            picExit.Size = new Size(31, 21);
             picExit.SizeMode = PictureBoxSizeMode.Zoom;
             picExit.TabIndex = 7;
             picExit.TabStop = false;
@@ -144,7 +144,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(683, 553);
+            ClientSize = new Size(654, 553);
             Controls.Add(picExit);
             Controls.Add(btnDangnhap);
             Controls.Add(panel1);
