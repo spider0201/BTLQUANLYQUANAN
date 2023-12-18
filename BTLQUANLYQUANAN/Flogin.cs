@@ -13,5 +13,11 @@ namespace BTLQUANLYQUANAN
             Application.Exit();
         }
 
+        private void btnDangnhap_Click(object sender, EventArgs e)
+        {
+            ThongtinNV thongtinNV = new ThongtinNV();
+            this.Hide();
+            thongtinNV.Show();
+        }
     }
 }

@@ -127,6 +127,7 @@
             btnDangnhap.TabIndex = 6;
             btnDangnhap.Text = "Đăng nhập";
             btnDangnhap.UseVisualStyleBackColor = false;
+            btnDangnhap.Click += btnDangnhap_Click;
             // 
             // picExit
             // 
