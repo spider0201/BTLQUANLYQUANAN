@@ -1,6 +1,6 @@
 ﻿namespace BTLQUANLYQUANAN
 {
-    partial class Form1
+    partial class Flogin
     {
         /// <summary>
         ///  Required designer variable.

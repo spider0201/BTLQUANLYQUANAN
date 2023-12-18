@@ -1,8 +1,8 @@
 namespace BTLQUANLYQUANAN
 {
-    public partial class Form1 : Form
+    public partial class Flogin : Form
     {
-        public Form1()
+        public Flogin()
         {
             InitializeComponent();
             
