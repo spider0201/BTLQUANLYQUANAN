@@ -28,7 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ThongtinNV));
             panel1 = new Panel();
+            button3 = new Button();
+            button2 = new Button();
+            button1 = new Button();
+            btnQLHethong = new Button();
             panel3 = new Panel();
             panel2 = new Panel();
             btnDangkyTK = new Button();
@@ -51,13 +56,19 @@
             textBox1 = new TextBox();
             label2 = new Label();
             btnLuuthongtin = new Button();
+            panel5 = new Panel();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             groupBox1.SuspendLayout();
+            panel5.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
+            panel1.Controls.Add(button3);
+            panel1.Controls.Add(button2);
+            panel1.Controls.Add(button1);
+            panel1.Controls.Add(btnQLHethong);
             panel1.Controls.Add(panel3);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
@@ -65,9 +76,74 @@
             panel1.Size = new Size(1160, 125);
             panel1.TabIndex = 0;
             // 
+            // button3
+            // 
+            button3.FlatAppearance.BorderColor = Color.FromArgb(255, 192, 192);
+            button3.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 192, 255);
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Arial", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.Image = (Image)resources.GetObject("button3.Image");
+            button3.ImageAlign = ContentAlignment.MiddleLeft;
+            button3.Location = new Point(794, 0);
+            button3.Name = "button3";
+            button3.Size = new Size(135, 102);
+            button3.TabIndex = 4;
+            button3.Text = "Quản lý";
+            button3.TextAlign = ContentAlignment.MiddleRight;
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.FlatAppearance.BorderColor = Color.FromArgb(255, 192, 192);
+            button2.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 192, 255);
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Arial", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.Image = (Image)resources.GetObject("button2.Image");
+            button2.ImageAlign = ContentAlignment.MiddleLeft;
+            button2.Location = new Point(964, 1);
+            button2.Name = "button2";
+            button2.Size = new Size(152, 101);
+            button2.TabIndex = 3;
+            button2.Text = "Thống kê";
+            button2.TextAlign = ContentAlignment.MiddleRight;
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            button1.FlatAppearance.BorderColor = Color.FromArgb(255, 192, 192);
+            button1.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 192, 255);
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Arial", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.Image = (Image)resources.GetObject("button1.Image");
+            button1.ImageAlign = ContentAlignment.MiddleLeft;
+            button1.Location = new Point(611, 0);
+            button1.Name = "button1";
+            button1.Size = new Size(152, 102);
+            button1.TabIndex = 2;
+            button1.Text = "Danh mục";
+            button1.TextAlign = ContentAlignment.MiddleRight;
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // btnQLHethong
+            // 
+            btnQLHethong.FlatAppearance.BorderColor = Color.FromArgb(255, 192, 192);
+            btnQLHethong.FlatAppearance.MouseDownBackColor = Color.White;
+            btnQLHethong.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 192, 255);
+            btnQLHethong.FlatStyle = FlatStyle.Flat;
+            btnQLHethong.Font = new Font("Arial", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            btnQLHethong.Image = Properties.Resources.system;
+            btnQLHethong.ImageAlign = ContentAlignment.MiddleLeft;
+            btnQLHethong.Location = new Point(446, 0);
+            btnQLHethong.Name = "btnQLHethong";
+            btnQLHethong.Size = new Size(152, 102);
+            btnQLHethong.TabIndex = 1;
+            btnQLHethong.Text = "Hệ thống";
+            btnQLHethong.TextAlign = ContentAlignment.MiddleRight;
+            btnQLHethong.UseVisualStyleBackColor = true;
+            // 
             // panel3
             // 
-            panel3.BackColor = SystemColors.ActiveCaption;
+            panel3.BackColor = Color.FromArgb(192, 192, 255);
             panel3.Dock = DockStyle.Bottom;
             panel3.Location = new Point(0, 102);
             panel3.Name = "panel3";
@@ -76,7 +152,7 @@
             // 
             // panel2
             // 
-            panel2.BackColor = SystemColors.ActiveCaption;
+            panel2.BackColor = Color.FromArgb(192, 192, 255);
             panel2.Controls.Add(btnDangkyTK);
             panel2.Controls.Add(btnDoiMK);
             panel2.Controls.Add(btnThongtinTK);
@@ -88,7 +164,7 @@
             // 
             // btnDangkyTK
             // 
-            btnDangkyTK.BackColor = SystemColors.GradientInactiveCaption;
+            btnDangkyTK.BackColor = Color.FromArgb(192, 192, 255);
             btnDangkyTK.FlatAppearance.BorderColor = Color.White;
             btnDangkyTK.FlatStyle = FlatStyle.Flat;
             btnDangkyTK.Font = new Font("Arial", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
@@ -101,7 +177,7 @@
             // 
             // btnDoiMK
             // 
-            btnDoiMK.BackColor = SystemColors.GradientInactiveCaption;
+            btnDoiMK.BackColor = Color.FromArgb(192, 192, 255);
             btnDoiMK.FlatAppearance.BorderColor = Color.White;
             btnDoiMK.FlatStyle = FlatStyle.Flat;
             btnDoiMK.Font = new Font("Arial", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
@@ -114,7 +190,7 @@
             // 
             // btnThongtinTK
             // 
-            btnThongtinTK.BackColor = SystemColors.GradientInactiveCaption;
+            btnThongtinTK.BackColor = Color.FromArgb(192, 192, 255);
             btnThongtinTK.FlatAppearance.BorderColor = Color.White;
             btnThongtinTK.FlatStyle = FlatStyle.Flat;
             btnThongtinTK.Font = new Font("Arial", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
@@ -127,8 +203,8 @@
             // 
             // panel4
             // 
-            panel4.BackColor = SystemColors.ActiveCaption;
-            panel4.Location = new Point(212, 184);
+            panel4.BackColor = Color.FromArgb(192, 192, 255);
+            panel4.Location = new Point(3, 51);
             panel4.Name = "panel4";
             panel4.Size = new Size(948, 24);
             panel4.TabIndex = 2;
@@ -137,7 +213,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(463, 137);
+            label1.Location = new Point(275, 13);
             label1.Name = "label1";
             label1.Size = new Size(353, 35);
             label1.TabIndex = 3;
@@ -160,7 +236,7 @@
             groupBox1.Controls.Add(label2);
             groupBox1.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             groupBox1.ForeColor = Color.Red;
-            groupBox1.Location = new Point(239, 221);
+            groupBox1.Location = new Point(6, 92);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(898, 318);
             groupBox1.TabIndex = 4;
@@ -298,22 +374,30 @@
             btnLuuthongtin.FlatAppearance.BorderColor = Color.White;
             btnLuuthongtin.FlatStyle = FlatStyle.Flat;
             btnLuuthongtin.Font = new Font("Arial", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            btnLuuthongtin.Location = new Point(574, 560);
+            btnLuuthongtin.Location = new Point(347, 437);
             btnLuuthongtin.Name = "btnLuuthongtin";
             btnLuuthongtin.Size = new Size(159, 65);
             btnLuuthongtin.TabIndex = 5;
             btnLuuthongtin.Text = "Lưu thay đổi";
             btnLuuthongtin.UseVisualStyleBackColor = false;
             // 
+            // panel5
+            // 
+            panel5.Controls.Add(groupBox1);
+            panel5.Controls.Add(label1);
+            panel5.Controls.Add(btnLuuthongtin);
+            panel5.Controls.Add(panel4);
+            panel5.Location = new Point(212, 125);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(948, 582);
+            panel5.TabIndex = 6;
+            // 
             // ThongtinNV
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1160, 707);
-            Controls.Add(btnLuuthongtin);
-            Controls.Add(groupBox1);
-            Controls.Add(label1);
-            Controls.Add(panel4);
+            Controls.Add(panel5);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "ThongtinNV";
@@ -323,8 +407,9 @@
             panel2.ResumeLayout(false);
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -352,5 +437,10 @@
         private TextBox textBox4;
         private ComboBox comboBox2;
         private Button btnLuuthongtin;
+        private Button btnQLHethong;
+        private Button button3;
+        private Button button2;
+        private Button button1;
+        private Panel panel5;
     }
 }
