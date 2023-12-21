@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 using System.Data;
 
 namespace BTLQUANLYQUANAN
-{
+{         //coment
     internal class DataAcess
     {
         SqlConnection ObjConnection = new SqlConnection();
