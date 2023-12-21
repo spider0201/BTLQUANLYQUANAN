@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ThongtinNV));
             panel1 = new Panel();
-            textBox5 = new TextBox();
             button3 = new Button();
             button2 = new Button();
             button1 = new Button();
@@ -67,7 +66,6 @@
             // 
             // panel1
             // 
-            panel1.Controls.Add(textBox5);
             panel1.Controls.Add(button3);
             panel1.Controls.Add(button2);
             panel1.Controls.Add(button1);
@@ -78,15 +76,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1160, 125);
             panel1.TabIndex = 0;
-            // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(212, 26);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(125, 27);
-            textBox5.TabIndex = 5;
-            textBox5.Text = "lap bu cu";
-            textBox5.TextChanged += textBox5_TextChanged;
             // 
             // button3
             // 
@@ -425,7 +414,6 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ThongtinNV";
             panel1.ResumeLayout(false);
-            panel1.PerformLayout();
             panel2.ResumeLayout(false);
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
@@ -465,6 +453,5 @@
         private Button button1;
         private Panel panel5;
         private ComboBox comboBox3;
-        private TextBox textBox5;
     }
 }
