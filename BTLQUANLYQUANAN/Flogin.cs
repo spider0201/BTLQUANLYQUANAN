@@ -1,4 +1,4 @@
-namespace BTLQUANLYQUANAN
+﻿namespace BTLQUANLYQUANAN
 {
     public partial class Flogin : Form
     {
@@ -16,7 +16,7 @@ namespace BTLQUANLYQUANAN
         private void btnDangnhap_Click(object sender, EventArgs e)
         {
             ThongtinNV thongtinNV = new ThongtinNV();
-            this.Hide();
+            this.Close(); //đỡ lỗi
             thongtinNV.Show();
         }
     }
