@@ -17,5 +17,5 @@ namespace BTLQUANLYQUANAN
             InitializeComponent();
         }
     }
-//msnhffghfhghggbghbgfhgf
+//msnhffghfhghggbghbgfhgffgfgg
 }
