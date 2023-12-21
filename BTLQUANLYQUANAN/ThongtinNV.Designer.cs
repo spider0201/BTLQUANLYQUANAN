@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ThongtinNV));
             panel1 = new Panel();
+            textBox5 = new TextBox();
             button3 = new Button();
             button2 = new Button();
             button1 = new Button();
@@ -58,7 +59,6 @@
             label2 = new Label();
             btnLuuthongtin = new Button();
             panel5 = new Panel();
-            textBox5 = new TextBox();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             groupBox1.SuspendLayout();
@@ -78,6 +78,15 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1160, 125);
             panel1.TabIndex = 0;
+            // 
+            // textBox5
+            // 
+            textBox5.Location = new Point(212, 26);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(125, 27);
+            textBox5.TabIndex = 5;
+            textBox5.Text = "tao la lap";
+            textBox5.TextChanged += textBox5_TextChanged;
             // 
             // button3
             // 
@@ -403,15 +412,6 @@
             panel5.Name = "panel5";
             panel5.Size = new Size(948, 582);
             panel5.TabIndex = 6;
-            // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(212, 26);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(125, 27);
-            textBox5.TabIndex = 5;
-            textBox5.Text = "tao la quan";
-            textBox5.TextChanged += textBox5_TextChanged;
             // 
             // ThongtinNV
             // 
