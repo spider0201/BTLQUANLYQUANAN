@@ -13,7 +13,7 @@ namespace BTLQUANLYQUANAN
         SqlConnection ObjConnection = new SqlConnection();
         public DataAcess()
         {
-            string strConnection = @"";
+            string strConnection = @"Data Source=.\Sqlexpress;Initial Catalog=QLQuanAn;Integrated Security=True";
             ObjConnection = new SqlConnection(strConnection);
         }
         public void UpdateData(string i_updateCommand)

@@ -42,6 +42,7 @@
             panel4 = new Panel();
             label1 = new Label();
             groupBox1 = new GroupBox();
+            comboBox3 = new ComboBox();
             textBox4 = new TextBox();
             comboBox2 = new ComboBox();
             label8 = new Label();
@@ -221,6 +222,7 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(comboBox3);
             groupBox1.Controls.Add(textBox4);
             groupBox1.Controls.Add(comboBox2);
             groupBox1.Controls.Add(label8);
@@ -243,10 +245,18 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Thông tin cá nhân";
             // 
+            // comboBox3
+            // 
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Location = new Point(609, 161);
+            comboBox3.Name = "comboBox3";
+            comboBox3.Size = new Size(183, 32);
+            comboBox3.TabIndex = 13;
+            // 
             // textBox4
             // 
             textBox4.BorderStyle = BorderStyle.FixedSingle;
-            textBox4.Location = new Point(609, 97);
+            textBox4.Location = new Point(609, 102);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(185, 30);
             textBox4.TabIndex = 12;
@@ -442,5 +452,6 @@
         private Button button2;
         private Button button1;
         private Panel panel5;
+        private ComboBox comboBox3;
     }
 }
