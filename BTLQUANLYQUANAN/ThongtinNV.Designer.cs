@@ -59,6 +59,7 @@
             label2 = new Label();
             btnLuuthongtin = new Button();
             panel5 = new Panel();
+            textBox6 = new TextBox();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             groupBox1.SuspendLayout();
@@ -67,6 +68,7 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(textBox6);
             panel1.Controls.Add(textBox5);
             panel1.Controls.Add(button3);
             panel1.Controls.Add(button2);
@@ -81,7 +83,7 @@
             // 
             // textBox5
             // 
-            textBox5.Location = new Point(227, 39);
+            textBox5.Location = new Point(224, 12);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(125, 27);
             textBox5.TabIndex = 5;
@@ -413,6 +415,14 @@
             panel5.Size = new Size(948, 582);
             panel5.TabIndex = 6;
             // 
+            // textBox6
+            // 
+            textBox6.Location = new Point(227, 69);
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(125, 27);
+            textBox6.TabIndex = 6;
+            textBox6.Text = "quan";
+            // 
             // ThongtinNV
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -466,5 +476,6 @@
         private Panel panel5;
         private ComboBox comboBox3;
         private TextBox textBox5;
+        private TextBox textBox6;
     }
 }
