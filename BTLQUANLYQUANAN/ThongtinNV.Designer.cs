@@ -85,7 +85,7 @@
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(125, 27);
             textBox5.TabIndex = 5;
-            textBox5.Text = "tao la lap";
+            textBox5.Text = "lap bu cu";
             textBox5.TextChanged += textBox5_TextChanged;
             // 
             // button3
